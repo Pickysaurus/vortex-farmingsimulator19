@@ -1,0 +1,10 @@
+{
+  "name": "Farming Simulator 19 Support",
+  "author": "Pickysaurus",
+  "version": "1.0.3",
+  "description": "Adds mod management for Farming Simulator 19 to Vortex",
+  "type": "game",
+  "path": "C:\\Users\\mikew\\AppData\\Roaming\\Vortex\\plugins\\Vortex Extension Update - Farming Simulator 19 Support v1.0.3.7z",
+  "bundled": false,
+  "modId": 159
+}
