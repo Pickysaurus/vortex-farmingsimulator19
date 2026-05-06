@@ -1,8 +1,6 @@
 //Import some assets from Vortex we'll need.
 const path = require('path');
 const { fs, log, util } = require('vortex-api');
-const { remote } = require('electron');
-const app = remote.app;
 
 const MOD_EXT = '.zip';
 
@@ -16,7 +14,7 @@ const FS19XBOXAPP_ID = 'FocusHomeInteractiveSA.FarmingSimulator19-Window10';
 
 const gameData = {
     storeIds: [FS19EPICAPP_ID, FS19STEAMAPP_ID, FS19XBOXAPP_ID],
-    modsPath: path.join(app.getPath('documents'), 'My Games', 'FarmingSimulator2019', 'mods')
+    modsPath: path.join(util.getVortexPath('documents'), 'My Games', 'FarmingSimulator2019', 'mods')
 };
 
 function findGame() {
